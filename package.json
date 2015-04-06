@@ -1,0 +1,10 @@
+{
+  "name": "urlresizer",
+  "version": "0.0.2",
+  "description": "assignment6 project",
+  "dependencies": {
+    "express": "4.9.x",
+    "redis": "0.8.x",
+    "body-parser": "^1.8.1"
+  }
+}
