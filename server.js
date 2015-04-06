@@ -110,7 +110,6 @@ app.get("/*", function (req, res) {
 
 app.post("/geturl", function (req, res) {
 	var urlinfo = req.body;
-	var returnurl;
 	checkURL(res, urlinfo.url);
 });
 
