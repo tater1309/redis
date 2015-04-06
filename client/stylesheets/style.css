@@ -24,7 +24,7 @@ header {
 
 header h1 {
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 2em;
+	font-size: 3em;
 	float: left;
 	width: 570px;
 }
@@ -39,13 +39,17 @@ main h2 {
 	font-size: xx-large;
 }
 
-main .gameButtons {
+main h3 {
+	font-size: x-large;
+}
+
+main .url {
     padding: 30px 10px 30px 10px;
     border-radius: 0 5px 5px 5px;
     background: #eee;
 }
 
-main .gameButtons button {
+main .url button {
   font-weight: bold;
   padding: 0 3px 0 3px;
   border-radius: 5px;
@@ -53,5 +57,15 @@ main .gameButtons button {
   cursor: pointer;
   margin-left: 5px;
   font-size: 1.3em;
+}
+
+main .result {
+	min-height: 100px;
+	background: #eee
+}
+
+main .topten {
+	min-height: 300px;
+	background: #eee
 }
 
